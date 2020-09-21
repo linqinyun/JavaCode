@@ -1,4 +1,4 @@
-package com.imooc.School;
+package com.java.school;
 
 public class Major {
 	private static String name;

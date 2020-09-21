@@ -1,4 +1,4 @@
-package com.imooc.School;
+package com.java.school;
 
 import java.util.Scanner;
 
