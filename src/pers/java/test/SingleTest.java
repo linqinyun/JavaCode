@@ -1,8 +1,5 @@
 package pers.java.test;
 
-import pers.java.single.Single;
-import pers.java.single.SingleTwo;
-import pers.java.singleEarth.Earth;
 import pers.java.singleEarth.Emperor;
 
 public class SingleTest {

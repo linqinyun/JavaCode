@@ -22,4 +22,9 @@ public class Dog extends Animal{
 	public void sleep() {
 		System.out.println("dog sleep");
 	}
+	@Override
+	public void cry() {
+		// TODO Auto-generated method stub
+		System.out.println("Dog cry wang wang wang");
+	}
 }

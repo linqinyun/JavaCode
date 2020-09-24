@@ -25,4 +25,14 @@ public class Cat extends Animal{
 	public void run() {
 		System.out.println("cat run");
 	}
+	public void palyBall() {
+		// TODO Auto-generated method stub
+		System.out.println("cat playBall");
+		
+	}
+	@Override
+	public void cry() {
+		// TODO Auto-generated method stub
+		System.out.println("Cat cry miao miao miao");
+	}
 }
