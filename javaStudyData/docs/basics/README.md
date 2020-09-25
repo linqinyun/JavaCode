@@ -25,7 +25,7 @@
 
 ## Java 常用工具类 
 
-1. Java异常
+1. [Java异常](./trycatch.md)
 2. Java包装类
 3. Java字符串
 4. Java集合
