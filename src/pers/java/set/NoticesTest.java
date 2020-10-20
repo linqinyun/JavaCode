@@ -7,6 +7,7 @@ public class NoticesTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//公告发布/修改/删除
 		Notices notices1 = new Notices(1,"欢迎来到1","管理员1",new Date());
 		Notices notices2 = new Notices(2,"欢迎来到2","管理员2",new Date());
 		Notices notices3 = new Notices(3,"欢迎来到3","管理员3",new Date());
