@@ -6,59 +6,71 @@ import java.util.Set;
 
 /**
  * 播放列表集合
- * @author ZHR
  *
+ * @author ZHR
  */
 public class PlayListCollection {
-	Map<String,PlayList> playListMap;
-	public PlayListCollection() {
-		playListMap = new HashMap<String,PlayList>();
-	}
-	/**
-	 * 向播放列表集合添加播放列表
-	 * @param playList 要添加的播放列表
-	 */
-	public void addPlayList(PlayList playList) {
-		playListMap.put(playList.getPlayListName(),playList); 
-	}
-	/**
-	 * 删除播放列表
-	 * @param playList 要删除的播放列表对象
-	 */
-	public void deletePlayList(PlayList playList) {
-		playListMap.remove(playList.getPlayListName());
-		System.out.println("删除成功");
-	}
-	/**
-	 * 通过播放列表名称查询播放列表
-	 * @param playListName 播放列表名称
-	 */
-	public PlayList searchPlayListByName(String playListName) {
-		PlayList playList = null;
-		//使用set取出map的key进行检索
-		Set<String> playListSet = playListMap.keySet();
-		for(String s:playListSet) {
-			if(s.equals(playListName)) {
-				playList = playListMap.get(playListName);break;
-			}
-		}
-		return playList;
-	}
-	/**
-	 * 显示所有播放列表的名称
-	 */
-	public void displayListName() {
-		Set<String> playListSet = playListMap.keySet();
-		System.out.println("播放列表名称为：");
-		for(String s:playListSet) {
-			System.out.println(s);
-		}
-	}
-	public Map<String, PlayList> getPlayListMap() {
-		return playListMap;
-	}
-	public void setPlayListMap(Map<String, PlayList> playListMap) {
-		this.playListMap = playListMap;
-	}
-	
+    Map<String, PlayList> playListMap;
+
+    public PlayListCollection() {
+        playListMap = new HashMap<String, PlayList>();
+    }
+
+    /**
+     * 向播放列表集合添加播放列表
+     *
+     * @param playList 要添加的播放列表
+     */
+    public void addPlayList(PlayList playList) {
+        playListMap.put(playList.getPlayListName(), playList);
+    }
+
+    /**
+     * 删除播放列表
+     *
+     * @param playList 要删除的播放列表对象
+     */
+    public void deletePlayList(PlayList playList) {
+        playListMap.remove(playList.getPlayListName());
+        System.out.println("删除成功");
+    }
+
+    /**
+     * 通过播放列表名称查询播放列表
+     *
+     * @param playListName 播放列表名称
+     */
+    public PlayList searchPlayListByName(String playListName) {
+        PlayList playList = null;
+        //使用set取出map的key进行检索
+        Set<String> playListSet = playListMap.keySet();
+        for (String s : playListSet) {
+            if (s.equals(playListName)) {
+                playList = playListMap.get(playListName);
+                break;
+            }
+        }
+        return playList;
+    }
+
+    /**
+     * 显示所有播放列表的名称
+     */
+    public void displayListName() {
+        Set<String> playListSet = playListMap.keySet();
+        System.out.println("播放列表名称为：");
+        for (String s : playListSet) {
+            System.out.println(s);
+        }
+    }
+    //这两种方法不需要使用
+
+    public Map<String, PlayList> getPlayListMap() {
+        return playListMap;
+    }
+
+    public void setPlayListMap(Map<String, PlayList> playListMap) {
+        this.playListMap = playListMap;
+    }
+
 }

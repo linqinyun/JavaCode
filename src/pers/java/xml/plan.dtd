@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT plan (course-plan+)>
+<!ELEMENT course-plan (course-name,teching-plan,exam-form)>
+<!ATTLIST course-plan no CDATA "">
+<!ELEMENT course-name (#PCDATA)>
+<!ELEMENT teching-plan (#PCDATA)>
+<!ELEMENT exam-form (#PCDATA)>
