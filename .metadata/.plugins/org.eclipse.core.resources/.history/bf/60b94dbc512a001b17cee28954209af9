@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="#" method="post" id="frmInfo">
+		<div id="err" style="color: red;"></div>
+		<div>
+			<label>姓名:</label> <input id="name" name="name" />
+		</div>
+		<div>
+			<label>身份证:</label> <input id="idno" name="idno" />
+		</div>
+		<div>
+			<input type="submit" />
+		</div>
+	</form>
+</body>
+</html>

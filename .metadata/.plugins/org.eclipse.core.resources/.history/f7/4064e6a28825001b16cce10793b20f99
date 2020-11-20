@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="/servlet_advanced/search/search" method="get">
+		<input type="search" name="name" placeholder="请输入要查询的单词" >
+		<input type="submit">
+	</form>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;pers.java.filter.MyAnnoationFilter&apos; to &apos;MyAnnotationFilter&apos;&#x0D;&#x0A;- Original project: &apos;filter&apos;&#x0D;&#x0A;- Original element: &apos;pers.java.filter.MyAnnoationFilter&apos;&#x0D;&#x0A;- Renamed element: &apos;pers.java.filter.MyAnnotationFilter&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MyAnnoationFilter&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;pers.java.filter{MyAnnoationFilter.java[MyAnnoationFilter" matchStrategy="1" name="MyAnnotationFilter" qualified="false" references="true" similarDeclarations="false" stamp="1605863079458" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,10 @@
+[
+	{
+		"mepno": 7369,
+		"empname": "tima",
+		"job":"machine",
+		"hiredate":"2020-03-04",
+		"salary":"33333",
+		"dname":"yanfa"
+	}
+]

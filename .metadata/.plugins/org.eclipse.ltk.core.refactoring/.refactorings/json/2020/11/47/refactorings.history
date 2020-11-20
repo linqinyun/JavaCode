@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;json/WebContent/demo.json&apos; to &apos;url.json&apos;" description="Rename resource &apos;demo.json&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/demo.json" name="url.json" stamp="1605597062883" updateReferences="true"/>
+</session>
