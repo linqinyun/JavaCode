@@ -13,9 +13,10 @@ import javax.servlet.annotation.WebFilter;
 /**
  * Servlet Filter implementation class MyAnnoationFilter
  */
+// 注解 过滤器 过滤器名称 过滤范围
 @WebFilter(filterName = "MyAnnotationFilter",urlPatterns = "/*")
 public class MyAnnotationFilter implements Filter {
-
+	private String encoding;
     /**
      * Default constructor. 
      */
@@ -46,6 +47,7 @@ public class MyAnnotationFilter implements Filter {
 	 */
 	public void init(FilterConfig fConfig) throws ServletException {
 		// TODO Auto-generated method stub
+		encoding = fConfig.getInitParameter("encoding");
 	}
 
 }
