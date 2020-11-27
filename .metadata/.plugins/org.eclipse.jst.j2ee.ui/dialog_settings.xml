@@ -6,6 +6,7 @@
 		<item value="Apache Tomcat v8.5"/>
 	</list>
 	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="D:\tomcat\apache-tomcat-8.5.59\webapps\fm-web.war"/>
 		<item value="D:\tomcat\apache-tomcat-8.5.59\webapps\servlet_advanced.war"/>
 	</list>
 </section>
