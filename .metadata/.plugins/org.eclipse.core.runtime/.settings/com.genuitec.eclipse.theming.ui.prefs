@@ -1,11 +1,12 @@
 applyBackground=false
 approved.defs.file.last.changed.time=1599254320000
-codemix.dont.show.upsell.until=1606630625924
+codemix.dont.show.upsell.until=1607149025924
 configurationInstallLocation=/D\:/eclipseJee/eclipse/
 eclipse.preferences.version=1
+elearning.dont.show.until=1614991759421
 iconcolormode=primary
 last.download.attempt.time=1605667870511
-lastConfiguration=1606437316709
+lastConfiguration=1614300787062
 newinstall=false
 showWelcomeDialog=false
 workbench.theme=Dark Gray
